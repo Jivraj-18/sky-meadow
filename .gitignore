@@ -1,0 +1,43 @@
+# --- Unreal build output and caches ---
+RealWorldGame/Binaries/
+RealWorldGame/Intermediate/
+RealWorldGame/Saved/
+RealWorldGame/DerivedDataCache/
+RealWorldGame/.vscode/
+*.code-workspace
+
+# --- Epic template content: allowed inside a shipped game, not as public raw files.
+# Recreate it by making a new UE 5.7 "Third Person" project (Blueprint) and copying these folders.
+RealWorldGame/Content/Characters/
+RealWorldGame/Content/Input/
+RealWorldGame/Content/LevelPrototyping/
+RealWorldGame/Content/ThirdPerson/
+RealWorldGame/Content/Variant_Platforming/
+RealWorldGame/Content/__ExternalActors__/ThirdPerson/
+RealWorldGame/Content/__ExternalActors__/Variant_Platforming/
+RealWorldGame/Content/__ExternalObjects__/ThirdPerson/
+RealWorldGame/Content/__ExternalObjects__/Variant_Platforming/
+RealWorldGame/Content/Developers/
+RealWorldGame/Content/Collections/
+
+# --- Mixamo: free to use in projects, but the raw assets must not be redistributed on their own.
+# Download "Swat" + the animations listed in tools/import_soldier.py from mixamo.com.
+assets_src/mixamo/
+RealWorldGame/Content/Soldier/Mesh/
+RealWorldGame/Content/Soldier/Anims/
+
+# --- Large downloads: re-fetch with tools/fetch_assets.py (Poly Haven, CC0) ---
+assets_src/polyhaven/
+RealWorldGame/Content/Quarry/Plants/fir_tree_01/
+reference/erangel_trailer.webm
+reference/frames/
+assets_src/*.zip
+
+# --- Local outputs ---
+Build/
+release/
+*.mp4
+!media/*.mp4
+editor-launch.log
+quarry-play.log
+tools/__pycache__/

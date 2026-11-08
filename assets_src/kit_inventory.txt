@@ -1,0 +1,187 @@
+SK Character                                extent <Struct 'Vector' (0x9b03c44fcd8) {x: 169.939743, y: 78.122620, z: 187.510952}>  /Game/Kit/Character/Character/Character.Character
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Death.CharacterCharacterArmature_Death
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Duck.CharacterCharacterArmature_Duck
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_HitReact.CharacterCharacterArmature_HitReact
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Idle.CharacterCharacterArmature_Idle
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Idle_Gun.CharacterCharacterArmature_Idle_Gun
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Idle_Shoot.CharacterCharacterArmature_Idle_Shoot
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Jump.CharacterCharacterArmature_Jump
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Jump_Idle.CharacterCharacterArmature_Jump_Idle
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Jump_Land.CharacterCharacterArmature_Jump_Land
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_No.CharacterCharacterArmature_No
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Punch.CharacterCharacterArmature_Punch
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Run.CharacterCharacterArmature_Run
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Run_Gun.CharacterCharacterArmature_Run_Gun
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Run_Shoot.CharacterCharacterArmature_Run_Shoot
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Walk.CharacterCharacterArmature_Walk
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Walk_Gun.CharacterCharacterArmature_Walk_Gun
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Wave.CharacterCharacterArmature_Wave
+AN /Game/Kit/Character/Character/CharacterCharacterArmature_Yes.CharacterCharacterArmature_Yes
+SK Character_Gun                            extent <Struct 'Vector' (0x9b03c4d2048) {x: 207.521683, y: 78.122620, z: 202.136815}>  /Game/Kit/Character/Character_Gun/Character_Gun.Character_Gun
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Death.Character_GunCharacterArmature_Death
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Duck.Character_GunCharacterArmature_Duck
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_HitReact.Character_GunCharacterArmature_HitReact
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Idle.Character_GunCharacterArmature_Idle
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Idle_Gun.Character_GunCharacterArmature_Idle_Gun
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Idle_Shoot.Character_GunCharacterArmature_Idle_Shoot
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Jump.Character_GunCharacterArmature_Jump
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Jump_Idle.Character_GunCharacterArmature_Jump_Idle
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Jump_Land.Character_GunCharacterArmature_Jump_Land
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_No.Character_GunCharacterArmature_No
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Punch.Character_GunCharacterArmature_Punch
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Run.Character_GunCharacterArmature_Run
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Run_Gun.Character_GunCharacterArmature_Run_Gun
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Run_Shoot.Character_GunCharacterArmature_Run_Shoot
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Walk.Character_GunCharacterArmature_Walk
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Walk_Gun.Character_GunCharacterArmature_Walk_Gun
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Wave.Character_GunCharacterArmature_Wave
+AN /Game/Kit/Character/Character_Gun/Character_GunCharacterArmature_Yes.Character_GunCharacterArmature_Yes
+SK Character_HumanoidRig                    extent <Struct 'Vector' (0x9b03c7e0098) {x: 169.939743, y: 78.122620, z: 187.510952}>  /Game/Kit/Character/Character_HumanoidRig/Character_HumanoidRig.Character_HumanoidRig
+SM Cube_Bricks                                204 x   206 x   203  min_z= -100  Cubes
+SM Cube_Crate                                 202 x   202 x   202  min_z= -101  Cubes
+SM Cube_Default                               202 x   202 x   202  min_z= -101  Cubes
+SM Cube_Dirt_Single                           200 x   200 x   200  min_z= -100  Cubes
+SM Cube_Exclamation                           202 x   202 x   202  min_z= -101  Cubes
+SM Cube_Grass_Single                          223 x   223 x   200  min_z= -100  Cubes
+SM Cube_Question                              202 x   202 x   202  min_z= -101  Cubes
+SM Cube_Spikes                                315 x   315 x   315  min_z= -158  Cubes
+SK Bee                                      extent <Struct 'Vector' (0x9b03c7e30d8) {x: 143.358818, y: 73.664574, z: 93.545346}>  /Game/Kit/Enemies/Bee/Bee.Bee
+AN /Game/Kit/Enemies/Bee/BeeMonsterArmature_Bite_Front.BeeMonsterArmature_Bite_Front
+AN /Game/Kit/Enemies/Bee/BeeMonsterArmature_Death.BeeMonsterArmature_Death
+AN /Game/Kit/Enemies/Bee/BeeMonsterArmature_Flying.BeeMonsterArmature_Flying
+AN /Game/Kit/Enemies/Bee/BeeMonsterArmature_HitRecieve.BeeMonsterArmature_HitRecieve
+SK Crab                                     extent <Struct 'Vector' (0x9b03c7e5698) {x: 127.150612, y: 69.292103, z: 75.587482}>  /Game/Kit/Enemies/Crab/Crab.Crab
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Bite_Front.CrabMonsterArmature_Bite_Front
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Bite_InPlace.CrabMonsterArmature_Bite_InPlace
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Dance.CrabMonsterArmature_Dance
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Death.CrabMonsterArmature_Death
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_HitRecieve.CrabMonsterArmature_HitRecieve
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Idle.CrabMonsterArmature_Idle
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Jump.CrabMonsterArmature_Jump
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_No.CrabMonsterArmature_No
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Walk.CrabMonsterArmature_Walk
+AN /Game/Kit/Enemies/Crab/CrabMonsterArmature_Yes.CrabMonsterArmature_Yes
+SK Enemy                                    extent <Struct 'Vector' (0x9b03c7e6a98) {x: 99.063946, y: 68.916206, z: 82.296851}>  /Game/Kit/Enemies/Enemy/Enemy.Enemy
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Bite_Front.EnemyMonsterArmature_Bite_Front
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Bite_InPlace.EnemyMonsterArmature_Bite_InPlace
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Dance.EnemyMonsterArmature_Dance
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Death.EnemyMonsterArmature_Death
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_HitRecieve.EnemyMonsterArmature_HitRecieve
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Idle.EnemyMonsterArmature_Idle
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Jump.EnemyMonsterArmature_Jump
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_No.EnemyMonsterArmature_No
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Walk.EnemyMonsterArmature_Walk
+AN /Game/Kit/Enemies/Enemy/EnemyMonsterArmature_Yes.EnemyMonsterArmature_Yes
+SK Skull                                    extent <Struct 'Vector' (0x9b03c7e6e98) {x: 70.280304, y: 71.091682, z: 74.652848}>  /Game/Kit/Enemies/Skull/Skull.Skull
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Bite_Front.SkullMonsterArmature_Bite_Front
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Bite_InPlace.SkullMonsterArmature_Bite_InPlace
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Dance.SkullMonsterArmature_Dance
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Death.SkullMonsterArmature_Death
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_HitRecieve.SkullMonsterArmature_HitRecieve
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Idle.SkullMonsterArmature_Idle
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Jump.SkullMonsterArmature_Jump
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_No.SkullMonsterArmature_No
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Walk.SkullMonsterArmature_Walk
+AN /Game/Kit/Enemies/Skull/SkullMonsterArmature_Yes.SkullMonsterArmature_Yes
+SM Arrow                                      185 x   102 x    15  min_z=   -0  Level
+SM Arrow_Side                                 186 x    36 x   205  min_z=   -0  Level
+SM Arrow_Up                                   102 x    36 x   270  min_z=   -0  Level
+SM Bomb                                       113 x   113 x   175  min_z=  -57  Level
+SK Bouncer                                  extent <Struct 'Vector' (0x9b03c7e8dd8) {x: 110.392311, y: 110.392311, z: 96.790230}>  /Game/Kit/Level/Bouncer.Bouncer
+SM Bridge_Modular                             295 x   224 x   201  min_z=  -23  Level
+SM Bridge_Modular_Center                      300 x   231 x   209  min_z=   -9  Level
+SM Bridge_Small                               694 x   264 x   262  min_z=  -28  Level
+SM Cannon                                     337 x   248 x   296  min_z=  -23  Level
+SM Cannon_Wheels                              187 x   332 x   187  min_z=  -94  Level
+SM Cannonball                                 113 x   112 x   114  min_z=  -57  Level
+SK Chest                                    extent <Struct 'Vector' (0x9b03c7ea758) {x: 106.811214, y: 93.907227, z: 90.581973}>  /Game/Kit/Level/Chest.Chest
+SK Chest                                    extent <Struct 'Vector' (0x9b03c7eaf18) {x: 106.811214, y: 93.907227, z: 90.581973}>  /Game/Kit/Level/Chest/Chest.Chest
+SM Door                                       250 x    54 x   363  min_z=    4  Level
+SM Door_Frame1                                371 x   130 x   424  min_z=    1  Level
+SM Fence_1                                     75 x    26 x   125  min_z=   -0  Level
+SM Fence_Corner                               113 x   113 x   125  min_z=   -0  Level
+SM Fence_Middle                               200 x    26 x   125  min_z=   -0  Level
+SM Goal_Flag                                  141 x    38 x   233  min_z=   -0  Level
+SM Hazard_Cylinder                            228 x   228 x   388  min_z=   -2  Level
+SM Hazard_Saw                                 300 x    20 x   286  min_z= -143  Level
+SK Hazard_SpikeTrap                         extent <Struct 'Vector' (0x9b03c7eda58) {x: 100.000000, y: 100.000004, z: 34.838806}>  /Game/Kit/Level/Hazard_SpikeTrap.Hazard_SpikeTrap
+SK Lever1                                   extent <Struct 'Vector' (0x9b03c7eeb98) {x: 71.158375, y: 25.361675, z: 66.445139}>  /Game/Kit/Level/Lever/Lever1.Lever1
+SK Lever1                                   extent <Struct 'Vector' (0x9b03c7eea58) {x: 71.158375, y: 25.361675, z: 66.445139}>  /Game/Kit/Level/Lever1.Lever1
+SM Numbers_0                                   73 x    41 x   112  min_z=  -56  Level
+SM Numbers_1                                   33 x    29 x   109  min_z=  -55  Level
+SM Numbers_2                                   71 x    29 x   111  min_z=  -55  Level
+SM Numbers_3                                   75 x    33 x   112  min_z=  -55  Level
+SM Numbers_4                                   74 x    30 x   113  min_z=  -56  Level
+SM Numbers_5                                   72 x    34 x   113  min_z=  -56  Level
+SM Numbers_6                                   76 x    33 x   112  min_z=  -56  Level
+SM Numbers_7                                   77 x    32 x   112  min_z=  -56  Level
+SM Numbers_8                                   73 x    41 x   112  min_z=  -56  Level
+SM Numbers_9                                   75 x    34 x   109  min_z=  -54  Level
+SM Pipe_90                                    187 x   174 x   187  min_z= -100  Level
+SM Pipe_End                                   218 x   218 x   222  min_z= -100  Level
+SM Pipe_Straight                              208 x   208 x   200  min_z= -100  Level
+SM Pipe_T                                     187 x   174 x   200  min_z= -100  Level
+SM Plant_Large                                170 x   170 x    39  min_z=   -0  Level
+SM Plant_Small                                103 x   103 x    29  min_z=   -0  Level
+SM Spikes                                     195 x   183 x   340  min_z=    0  Level
+SM SpikyBall                                  118 x   118 x   119  min_z=  -60  Level
+SM Stairs                                     177 x    26 x   200  min_z= -100  Level
+SM Stairs_Modular_End                         226 x   256 x   242  min_z=  -10  Level
+SM Stairs_Modular_Middle                      226 x   256 x   243  min_z=  -10  Level
+SM Stairs_Modular_Start                       224 x   256 x   243  min_z=   -9  Level
+SM Stairs_Small                               164 x   256 x   223  min_z=   -9  Level
+SM Tower1                                     944 x   898 x  1460  min_z=  -10  Level
+SM Tower_Door                                 250 x    54 x   363  min_z=  153  Level
+SM Bush                                       352 x   353 x   223  min_z=    3  Nature
+SM Bush_Fruit                                 352 x   353 x   223  min_z=    3  Nature
+SM Cloud_1                                    329 x   245 x   212  min_z=  -14  Nature
+SM Cloud_2                                    401 x   245 x   240  min_z=  -24  Nature
+SM Cloud_3                                    585 x   349 x   316  min_z=  -35  Nature
+SM Fruit                                       88 x    69 x    82  min_z=  -33  Nature
+SM Grass_1                                     52 x    40 x    38  min_z=   95  Nature
+SM Grass_2                                    107 x    63 x    47  min_z=   94  Nature
+SM Grass_3                                    107 x    63 x    52  min_z=   91  Nature
+SM Rock_1                                     160 x   146 x   110  min_z=  -19  Nature
+SM Rock_2                                     163 x   146 x   210  min_z=  -14  Nature
+SM RockPlatform_Tall                          358 x   358 x   426  min_z=    0  Nature
+SM RockPlatforms_1                            640 x   588 x   553  min_z=  -16  Nature
+SM RockPlatforms_2                            932 x   674 x   445  min_z=  -19  Nature
+SM RockPlatforms_3                            600 x   544 x   438  min_z=  -12  Nature
+SM RockPlatforms_Large                        738 x   516 x   363  min_z=    0  Nature
+SM RockPlatforms_Medium                       481 x   481 x   291  min_z=    0  Nature
+SM Tree                                       553 x   555 x   863  min_z=    1  Nature
+SM Tree_Fruit                                 553 x   555 x   863  min_z=    1  Nature
+SM Coin                                       192 x    52 x   192  min_z=  -96  Pickups
+SM Gem_Blue1                                   99 x    70 x   211  min_z= -105  Pickups
+SM Gem_Green1                                 150 x   150 x   151  min_z=  -97  Pickups
+SM Gem_Pink1                                  113 x   113 x   194  min_z=  -97  Pickups
+SM Heart                                      148 x    75 x   124  min_z=  -57  Pickups
+SM Heart_Half                                  74 x    75 x   124  min_z=  -57  Pickups
+SM Heart_Outline                              148 x     6 x   124  min_z=  -57  Pickups
+SM Key                                        193 x    32 x    98  min_z=  -49  Pickups
+SM Star                                       151 x    69 x   144  min_z=  -64  Pickups
+SM Star_Outline                               151 x     6 x   144  min_z=  -64  Pickups
+SM Thunder                                    117 x    35 x   159  min_z=  -86  Pickups
+SM Cube_Dirt_1x1Center                        200 x   200 x   200  min_z= -100  2D
+SM Cube_Dirt_1x1End                           200 x   200 x   200  min_z= -100  2D
+SM Cube_Grass_1x1Center                       200 x   223 x   200  min_z= -100  2D
+SM Cube_Grass_1x1End                          212 x   223 x   200  min_z= -100  2D
+SM Cube_Dirt_Center_Tall                      200 x   200 x     0  min_z=  100  3D
+SM Cube_Dirt_Corner_Tall                      200 x   200 x   200  min_z= -100  3D
+SM Cube_Dirt_Side_Tall                        200 x   200 x   200  min_z= -100  3D
+SM Cube_Grass_Bottom_Tall                     200 x   200 x     0  min_z= -100  3D
+SM Cube_Grass_Center_Tall                     200 x   200 x     0  min_z=  100  3D
+SM Cube_Grass_Corner_Tall                     212 x   212 x   200  min_z= -100  3D
+SM Cube_Grass_CornerBottom_Tall               200 x   200 x   200  min_z= -100  3D
+SM Cube_Grass_CornerCenter_Tall               200 x   200 x   200  min_z= -100  3D
+SM Cube_Grass_Side_Tall                       200 x   212 x   200  min_z= -100  3D
+SM Cube_Grass_SideBottom_Tall                 200 x   200 x   200  min_z= -100  3D
+SM Cube_Grass_SideCenter_Tall                 200 x     0 x   200  min_z= -100  3D
+SM Cube_Dirt_Single                           200 x   200 x   200  min_z= -100  SingleCube
+SM Cube_Grass_Single                          223 x   223 x   200  min_z= -100  SingleCube
+SM Cube_Dirt_Center                           200 x   200 x   200  min_z= -100  SingleHeight
+SM Cube_Dirt_Corner                           200 x   200 x   200  min_z= -100  SingleHeight
+SM Cube_Dirt_Side                             200 x   200 x   200  min_z= -100  SingleHeight
+SM Cube_Grass_Center                          200 x   200 x   200  min_z= -100  SingleHeight
+SM Cube_Grass_Corner                          212 x   212 x   200  min_z= -100  SingleHeight
+SM Cube_Grass_Side                            200 x   212 x   200  min_z= -100  SingleHeight
