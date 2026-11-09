@@ -50,7 +50,7 @@ This repo also holds the Unreal Engine 5.7 project (`RealWorldGame/`) and the sc
 | Level | What it is |
 |---|---|
 | `Maps/Lvl_World1_1` | The game: Sky Meadow (cartoon platformer) |
-| `Maps/Lvl_Quarry` | Realistic quarry landscape with a soldier character (work in progress) |
+| `Maps/Lvl_Quarry` | [Quarry Ridge](https://github.com/Jivraj-18/quarry-ridge): realistic quarry with a soldier, a dirt road and a drivable car (work in progress) |
 | `Maps/Lvl_TreeLab` | Tree rendering experiment (Procedural Vegetation Editor trees) |
 
 Most content is built by scripts in `tools/` (for example `build_level01.py`, `build_quarry.py`) run
@@ -69,6 +69,9 @@ Some files can't be in a public repo:
 3. **Mixamo soldier** (free, but not redistributable as raw files): download "Swat" and the
    animations listed in `tools/import_soldier.py` from [mixamo.com](https://www.mixamo.com) into
    `assets_src/mixamo/`, then run that script in the editor.
+4. **Epic vehicle template** (`Content/VehicleTemplate`, `Content/Vehicles`): copy
+   `Templates/TP_VehicleAdvBP/Content/VehicleTemplate` and
+   `Templates/TemplateResources/Standard/Vehicles/Content` from the engine into `Content/`.
 
 Built and tested on Linux with an NVIDIA RTX 2050 (4 GB); see `launch-unreal.sh`.
 

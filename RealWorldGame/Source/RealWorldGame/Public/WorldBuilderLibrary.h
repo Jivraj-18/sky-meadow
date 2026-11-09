@@ -38,6 +38,19 @@ public:
 		int32 Seed, float ScaleMin, float ScaleMax, float MaxSlopeDegrees, bool bAlignToSlope, float CullDistance,
 		bool bCastShadow);
 
+	/**
+	 * Builds a road as a Landscape Spline through Points (world XY; Z is taken from the ground):
+	 * the terrain is flattened along it (Splines edit layer) and RoadMesh is laid on top. It stays
+	 * editable in Landscape mode > Splines: drag its points and the road and terrain follow.
+	 */
+	UFUNCTION(BlueprintCallable, Category = "World Builder", meta = (WorldContext = "WorldContext"))
+	static int32 CreateLandscapeRoad(UObject* WorldContext, ALandscape* Landscape, const TArray<FVector>& Points,
+		float HalfWidth, float SideFalloff, UStaticMesh* RoadMesh, UMaterialInterface* RoadMaterial, bool bClosedLoop);
+
+	/** Removes Foliage instances (any mesh) within Radius (cm, in XY) of the polyline Points, e.g. along a road. */
+	UFUNCTION(BlueprintCallable, Category = "World Builder", meta = (WorldContext = "WorldContext"))
+	static int32 RemoveFoliageAlongPath(UObject* WorldContext, const TArray<FVector>& Points, float Radius, bool bClosedLoop);
+
 	/** Removes every Foliage instance of Mesh from the current level (to re-run a scatter). */
 	UFUNCTION(BlueprintCallable, Category = "World Builder", meta = (WorldContext = "WorldContext"))
 	static int32 ClearFoliage(UObject* WorldContext, UStaticMesh* Mesh);

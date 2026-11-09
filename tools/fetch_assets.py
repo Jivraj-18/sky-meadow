@@ -11,7 +11,7 @@ import os
 import urllib.request
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets_src", "polyhaven")
-TEXTURES = ["rock_face_03", "aerial_grass_rock"]          # 2k diffuse/normal/rough/arm
+TEXTURES = ["rock_face_03", "aerial_grass_rock", "brown_mud_dry"]  # 2k diffuse/normal/rough/arm
 MODELS = {                                                 # name: (format, resolution)
     "boulder_01": ("gltf", "1k"), "namaqualand_boulder_02": ("gltf", "1k"), "rock_moss_set_01": ("gltf", "1k"),
     "grass_medium_01": ("gltf", "1k"), "grass_medium_02": ("gltf", "1k"), "grass_bermuda_01": ("gltf", "1k"),
