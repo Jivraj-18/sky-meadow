@@ -44,34 +44,24 @@ __NV_PRIME_RENDER_OFFLOAD=1 __VK_LAYER_NV_optimus=NVIDIA_only ./RealWorldGame.sh
 
 ## Source code
 
-This repo also holds the Unreal Engine 5.7 project (`RealWorldGame/`) and the scripts that built it
+This repo holds the Unreal Engine 5.7 project (`RealWorldGame/`) and the scripts that built it
 (`tools/`). Levels:
 
 | Level | What it is |
 |---|---|
-| `Maps/Lvl_World1_1` | The game: Sky Meadow (cartoon platformer) |
-| `Maps/Lvl_Quarry` | [Quarry Ridge](https://github.com/Jivraj-18/quarry-ridge): realistic quarry with a soldier, a dirt road and a drivable car (work in progress) |
-| `Maps/Lvl_TreeLab` | Tree rendering experiment (Procedural Vegetation Editor trees) |
+| `Maps/Lvl_World1_1` | The game: World 1-1 "Sky Meadow" |
+| `Maps/Lvl_Course01` | Earlier test course |
 
-Most content is built by scripts in `tools/` (for example `build_level01.py`, `build_quarry.py`) run
-inside the editor, so levels can be regenerated and tweaked from code. Everything they place is
-ordinary editable content (actors, Landscape, Foliage).
+Most content is built by scripts in `tools/` (for example `build_level01.py`) run inside the
+editor, so levels can be regenerated and tweaked from code. Everything they place is ordinary
+editable content.
 
 ### Pieces you add yourself after cloning
 
-Some files can't be in a public repo:
-
-1. **Epic template content** (`Content/Characters`, `Input`, `LevelPrototyping`, `ThirdPerson`,
-   `Variant_Platforming`): create a new UE 5.7 **Third Person** project (Blueprint) and copy those
-   folders across. Epic's license lets games ship them, not publish them as raw files.
-2. **Poly Haven assets** (CC0, too big for git): `python3 tools/fetch_assets.py`, then
-   `tools/ue-headless.sh tools/import_quarry_assets.py` and `tools/import_quarry_plants.py`.
-3. **Mixamo soldier** (free, but not redistributable as raw files): download "Swat" and the
-   animations listed in `tools/import_soldier.py` from [mixamo.com](https://www.mixamo.com) into
-   `assets_src/mixamo/`, then run that script in the editor.
-4. **Epic vehicle template** (`Content/VehicleTemplate`, `Content/Vehicles`): copy
-   `Templates/TP_VehicleAdvBP/Content/VehicleTemplate` and
-   `Templates/TemplateResources/Standard/Vehicles/Content` from the engine into `Content/`.
+Epic template content can't be in a public repo (`Content/Characters`, `Input`, `LevelPrototyping`,
+`ThirdPerson`, `Variant_Platforming`, plus their `__ExternalActors__`/`__ExternalObjects__` folders).
+Create a new UE 5.7 **Third Person** project (Blueprint) and copy those folders across. Epic's
+license lets games ship them, but not publish them as raw files.
 
 Built and tested on Linux with an NVIDIA RTX 2050 (4 GB); see `launch-unreal.sh`.
 
@@ -82,7 +72,3 @@ Built and tested on Linux with an NVIDIA RTX 2050 (4 GB); see `launch-unreal.sh`
   "Platformer Kit" by [Kenney](https://kenney.nl) (CC0).
 - Movement and animation base: Unreal Engine Third Person template (Platforming variant).
 - Music, sound effects and HUD icons: original, made for this game.
-- Quarry scene: textures, rocks and plants from [Poly Haven](https://polyhaven.com) (CC0); soldier
-  character and animations from [Mixamo](https://www.mixamo.com) (Adobe, not included in the repo);
-  reference frames in `reference/` are from the "PUBG MOBILE - Erangel's New Imagination Plaza"
-  trailer by PUBG MOBILE (CC BY 3.0, via Wikimedia Commons).
